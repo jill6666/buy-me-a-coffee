@@ -1,3 +1,5 @@
+const hre = require("hardhat"); // optional
+
 const main = async () => {
   // This will actually compile our contract and generate the necessary files we need to work with our contract under the artifacts directory.
   const coffeeContractFactory = await hre.ethers.getContractFactory(
