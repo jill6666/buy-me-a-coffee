@@ -8,7 +8,7 @@ prerequest:
 
 1. node v16.13.1
 
-## Live Demo: https://buy-me-a-coffee-r1vmmfnc7-jill6666.vercel.app/
+Live Demo: https://buy-me-a-coffee-r1vmmfnc7-jill6666.vercel.app/
 
 # :fire: get started!
 
