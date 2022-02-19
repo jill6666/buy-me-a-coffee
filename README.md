@@ -1,29 +1,12 @@
 # Simple dapp with ethers and Hardhat
+<img width="805" alt="截圖 2022-02-19 下午6 45 28" src="https://user-images.githubusercontent.com/73696750/154797625-bd047c69-9ce5-4bcd-be77-28c6a7b3f850.png">
 
-description: In this project, you will learn how to create a dapp with hardhat and ethers on Next.js framework.<br/>
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+> description: In this project, you will learn how to create a dapp with hardhat and ethers on Next.js framework.<br/>
+> This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-- prerequest:
+prerequest:
 
-1. Node/NPM on your PC
-
-```shell
-node -v // v16.13.1
-```
-
-# Basic Sample Hardhat Project
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/deploy.js
-npx hardhat help
-```
+1. node v16.13.1
 
 # :fire: get started!
 
@@ -46,6 +29,8 @@ PRIVATE_KEY=YOUR_INFURA_PRIVATE_KEY
 make sure that the contract name is correct in `scripts/deploy.js`.
 
 ```shell
+npx hardhat clean
+npx hardhat node
 npx hardhat run scripts/run.js
 ```
 
@@ -57,13 +42,13 @@ See the information about this deployment and deployment configuration in termin
 Deploying contracts with account:  0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
 Account balance:  10000000000000000000000
 Yo! Smart Contract
-CoffeePortal address:  0x5FbDB2315678afecb367f032d93F642f64180aa3
+CoffeePortal address:  YOUR_DEPLOYED_CONTRACT_ADDRESS
 ```
 
 ## Replace contractAddress in frontend `client/pages/index.js`
 
 ```javascript
-const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const contractAddress = YOUR_DEPLOYED_CONTRACT_ADDRESS;
 ```
 
 ## Run frontend
