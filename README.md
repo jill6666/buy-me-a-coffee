@@ -8,6 +8,8 @@ prerequest:
 
 1. node v16.13.1
 
+## Live Demo: https://buy-me-a-coffee-r1vmmfnc7-jill6666.vercel.app/
+
 # :fire: get started!
 
 ## see current accounts on the chain
@@ -59,3 +61,8 @@ yarn dev
 ```
 
 📱 open localhost:3000
+
+
+---
+
+ref: https://blog.idrisolubisi.com/build-a-mini-buymeacoffee-dapp-using-solidity-ethereum-smart-contract-reactjs-tailwindcss
